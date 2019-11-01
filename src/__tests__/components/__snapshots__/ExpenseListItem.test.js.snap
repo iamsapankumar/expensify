@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render expenselistitem with fixture data 1`] = `
+<div>
+  <Link
+    to="/edit/1"
+  >
+    <h3>
+      Gum
+    </h3>
+  </Link>
+  <p>
+    Amount: 
+    $1.95
+    <br />
+    Created: 
+    1st January 1970
+    <br />
+  </p>
+</div>
+`;
