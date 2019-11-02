@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "my-awesome-react-boilerplate",
+  "description": "expensify app",
   "main": "index.js",
   "author": "Goran Ilic",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "firebase": "^7.2.1",
     "history": "^4.10.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.0",
     "normalize.css": "8.0.1",
     "numeral": "^2.0.6",
     "react": "^16.8.4",

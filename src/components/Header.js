@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { startLogout } from '../actions/auth';
+// import { startLogout } from '../actions/auth';
 
 export const Header = ({ startLogout }) => {
     return (
