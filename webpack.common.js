@@ -8,9 +8,7 @@ module.exports = {
   //   minimize: true,
   //   minimizer: [new TerserJSPlugin({})]
   // },
-  entry: {
-    main: './src/app.js'
-  },
+  entry: ['babel-polyfill', './src/app.js'],
   output: {
     filename: '[name].[hash].js',
     path: path.resolve('./dist')

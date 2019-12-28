@@ -1,0 +1,19 @@
+.header {
+    background-color: $dark-blue;
+
+    &__content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: $s-size 0;
+    }
+
+    &__title {
+        color: white;
+        text-decoration: none;
+
+        &--exact {
+            margin: 0;
+        }
+    }
+}

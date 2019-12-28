@@ -1,0 +1,58 @@
+.list-header {
+    background: $light-gray;
+    border: darken($light-gray, 10%);
+    color: $grey;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $m-size;
+}
+.list-item {
+    border-bottom: 1px solid darken($light-gray, 30%);
+    color: $dark-gray;
+    display: flex;
+    flex-direction: column;
+    padding: $s-size;
+    text-decoration: none;
+    transition: background .3s ease;
+
+    &:hover {
+        background: darken($light-gray, 10%);
+    }
+    @media (min-width: $desktop-breakpoint) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: $m-size;
+    }
+    &__title {
+      margin: 0;
+      word-break: break-all;
+    }
+    &__sub-title {
+      color: $grey;
+      font-size: 1.4rem;
+    }
+    &__data {
+      margin-left: $s-size 0 0 0;
+
+      @media(min-width: $desktop-breakpoint) {
+          margin: 0;
+          padding-left: $s-size;
+      }
+    }
+    &--message {
+        align-items: center;
+        color: $grey;
+        justify-content: center;
+        padding: $m-size;
+        &:hover {
+            background: none;
+        }
+    }
+}
+.list-body {
+    margin-bottom: $m-size;
+    @media(min-width: $desktop-breakpoint) {
+        margin-bottom: $xl-size;
+    }
+}
